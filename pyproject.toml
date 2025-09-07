@@ -45,6 +45,7 @@ packages = ["modicon"]
 [tool.hatch.build.targets.sdist]
 include = [
     "/modicon",
+    "/modi",
 ]
 
 [dependency-groups]
